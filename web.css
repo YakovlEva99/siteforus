@@ -27,7 +27,7 @@ header{
 }
 nav{
    margin-top: 56px;
-   margin-left: 29%; 
+   margin-left: 25%; 
 }
 .topnav a{
     color: #fff;
@@ -55,9 +55,9 @@ nav{
 }
 
 
-@media screen and (max-width: 1200px){
+@media screen and (max-width: 1200px) { 
     nav{
-        margin-left: 20%;
+        margin-left: 10%;
     }
 }
 @media screen and (max-width: 1105px){
@@ -70,7 +70,7 @@ nav{
     .topnav a{
         display: none;
     }
-    .topnav .icon{
+    .topnav a.icon{
         float: right;
         margin-top: -17px;
         display: block;
@@ -90,7 +90,7 @@ nav{
         height: 340px;
     }
     .topnav.responsive a.icon{
-        position: :absolute;
+        position: absolute;
         top: -50px;
         right: -200px;
     }
