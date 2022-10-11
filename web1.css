@@ -16,8 +16,7 @@ header{
     background: #000;
     display: flex ;
     
-} //sfsfe
-//рори
+}
 .header__logo{
     text-transform: uppercase;
     color:beige;
@@ -95,6 +94,57 @@ main .main_about{
 .mw-100{
     min-width: 100%;
 }
+.main_team{
+    background: #000;
+    text-align: center;
+    padding: 100px 0 165px 0;
+    color: #fff;
+}
+.main_team h1{
+    font-size: 44px;
+    padding-bottom:30px;
+}
+.line{
+    width: 100px;
+    height: 3px;
+    background: #fcac45;
+    position: relative;y
+    left:45,5%;
+    margin-bottom:85px;
+    text-align: center;
+}
+.photo{
+    background: #d7d7d7;
+    width: 125px;
+    height: 125px;
+    border-radius: 50%;
+    margin: 20px auto;
+}
+.team_cards{
+    display: flex;
+}
+.services_cards{
+    text-align: center;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-column-gap: 20px;
+}
+.main_services h1 {
+    text-align: center;
+    padding: 100px 0 30px 0;
+}
+
+.main_services p{
+    color:#000;
+    margin-bottom: 100px;
+}
+.services_card h4{
+    margin-top: 20px;
+    margin-bottom: 15px;
+
+
+
+
 
 
 @media screen and (max-width: 1200px) { 
@@ -173,5 +223,8 @@ main .main_about{
     .about_right h1{
         font-size: 20px;
         margin-top: 10px;
+    }
+    .services_cards{
+        grid-template-columns:auto;
     }
 }
